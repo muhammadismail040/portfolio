@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Muhammad Ismail — ML/DL Engineer, Computer Vision specialist and Data Scientist. Building intelligent AI systems with Python, YOLOv8, and modern ML frameworks."
+    />
+    <meta
+      name="keywords"
+      content="Muhammad Ismail, ML Engineer, Deep Learning, Computer Vision, Data Scientist, Python, YOLOv8, AI"
+    />
+    <meta name="author" content="Muhammad Ismail" />
+    <meta property="og:title" content="Muhammad Ismail | ML/DL Engineer" />
+    <meta
+      property="og:description"
+      content="AI & Machine Learning Engineer building real-time intelligent systems."
+    />
+    <meta property="og:type" content="website" />
+    <title>Muhammad Ismail | ML/DL Engineer & Data Scientist</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================================================================
+     NAVBAR
+     ================================================================ -->
+    <nav id="navbar">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="#hero" class="nav-logo"> MI<span></span> </a>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certs</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+          </ul>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================================================================
+     HERO
+     ================================================================ -->
+    <section id="hero">
+      <div class="grid-bg"></div>
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+
+      <!-- Neural network SVG decoration -->
+      <div class="hero-visual">
+        <svg
+          id="neuralSvg"
+          class="neural-svg"
+          viewBox="0 0 400 400"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Connections -->
+          <g stroke="#38bdf8" stroke-width="0.8" opacity="0.4">
+            <!-- Layer 1 → 2 -->
+            <line x1="60" y1="80" x2="180" y2="100" />
+            <line x1="60" y1="80" x2="180" y2="180" />
+            <line x1="60" y1="80" x2="180" y2="260" />
+            <line x1="60" y1="160" x2="180" y2="100" />
+            <line x1="60" y1="160" x2="180" y2="180" />
+            <line x1="60" y1="160" x2="180" y2="260" />
+            <line x1="60" y1="240" x2="180" y2="100" />
+            <line x1="60" y1="240" x2="180" y2="180" />
+            <line x1="60" y1="240" x2="180" y2="260" />
+            <line x1="60" y1="320" x2="180" y2="100" />
+            <line x1="60" y1="320" x2="180" y2="180" />
+            <line x1="60" y1="320" x2="180" y2="260" />
+            <!-- Layer 2 → 3 -->
+            <line x1="180" y1="100" x2="280" y2="140" />
+            <line x1="180" y1="100" x2="280" y2="260" />
+            <line x1="180" y1="180" x2="280" y2="140" />
+            <line x1="180" y1="180" x2="280" y2="260" />
+            <line x1="180" y1="260" x2="280" y2="140" />
+            <line x1="180" y1="260" x2="280" y2="260" />
+            <!-- Layer 3 → 4 -->
+            <line x1="280" y1="140" x2="360" y2="200" />
+            <line x1="280" y1="260" x2="360" y2="200" />
+          </g>
+          <!-- Nodes Layer 1 -->
+          <circle cx="60" cy="80" r="7" fill="#38bdf8" opacity="0.6" />
+          <circle cx="60" cy="160" r="7" fill="#38bdf8" opacity="0.6" />
+          <circle cx="60" cy="240" r="7" fill="#38bdf8" opacity="0.6" />
+          <circle cx="60" cy="320" r="7" fill="#38bdf8" opacity="0.6" />
+          <!-- Nodes Layer 2 -->
+          <circle cx="180" cy="100" r="8" fill="#818cf8" opacity="0.7" />
+          <circle cx="180" cy="180" r="8" fill="#818cf8" opacity="0.7" />
+          <circle cx="180" cy="260" r="8" fill="#818cf8" opacity="0.7" />
+          <!-- Nodes Layer 3 -->
+          <circle cx="280" cy="140" r="9" fill="#34d399" opacity="0.7" />
+          <circle cx="280" cy="260" r="9" fill="#34d399" opacity="0.7" />
+          <!-- Output -->
+          <circle cx="360" cy="200" r="12" fill="#38bdf8" opacity="0.9" />
+          <circle
+            cx="360"
+            cy="200"
+            r="20"
+            stroke="#38bdf8"
+            stroke-width="1"
+            opacity="0.2"
+          />
+          <circle
+            cx="360"
+            cy="200"
+            r="30"
+            stroke="#38bdf8"
+            stroke-width="0.5"
+            opacity="0.1"
+          />
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-eyebrow reveal">
+            <i class="fa-solid fa-circle-nodes"></i>
+            Available for opportunities
+          </div>
+          <h1 class="hero-name reveal reveal-delay-1">
+            Muhammad<br />
+            <span class="gradient-text">Ismail</span>
+          </h1>
+          <div class="hero-title reveal reveal-delay-2">
+            &gt; <span id="typingText"></span><span class="cursor"></span>
+          </div>
+          <p class="hero-desc reveal reveal-delay-3">
+            AI & Machine Learning enthusiast crafting real-time intelligent
+            systems— from YOLOv8 detection to RAG pipelines. Turning data into
+            decisions.
+          </p>
+          <div class="hero-btns reveal reveal-delay-4">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i> Get in Touch
+            </a>
+            <button class="btn btn-outline" id="downloadCV">
+              <i class="fa-solid fa-download"></i> Download CV
+            </button>
+          </div>
+
+          <div class="hero-stats reveal">
+            <div class="stat-item">
+              <div class="stat-num">
+                <span data-count="5" data-suffix="+">0+</span>
+              </div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">
+                <span data-count="10" data-suffix="+">0+</span>
+              </div>
+              <div class="stat-label">Technologies</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">
+                <span data-count="2" data-suffix="">0</span>
+              </div>
+              <div class="stat-label">Certifications</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">
+                <span data-count="2" data-suffix="">0</span>
+              </div>
+              <div class="stat-label">Years Studying</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-ind">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     ABOUT
+     ================================================================ -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-img-wrap reveal">
+            <div class="about-img-box">
+              <div><img src="ismail1.jpeg" alt="Muhammad Ismail" /></div>
+              <div class="about-corner tl"></div>
+              <div class="about-corner br"></div>
+            </div>
+            <div class="about-badge-float">
+              <div class="icon">⚡</div>
+              <div class="label">
+                <strong>Open to Work</strong>
+                ML / AI Roles
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <div class="section-tag reveal">About Me</div>
+            <h2 class="section-title reveal">
+              Building the Future<br />
+              <span class="gradient-text">One Model at a Time</span>
+            </h2>
+            <p class="reveal">
+              I'm an AI and Machine Learning enthusiast currently pursuing a BS
+              in Computer Science (Data Science specialization) at UET Mardan.
+              My passion lies in building real-time intelligent systems that
+              solve meaningful problems.
+            </p>
+            <p class="reveal">
+              I specialize in Deep Learning and Computer Vision—from training
+              YOLOv8 models for real-time detection to constructing end-to-end
+              ML pipelines and RAG-based AI systems. I'm skilled in Python, SQL,
+              and deploying production-ready models with Flask, Streamlit, and
+              Docker.
+            </p>
+
+            <div class="about-highlights reveal">
+              <span class="highlight-chip"
+                ><i class="fa-solid fa-brain"></i> Deep Learning</span
+              >
+              <span class="highlight-chip"
+                ><i class="fa-solid fa-eye"></i> Computer Vision</span
+              >
+              <span class="highlight-chip"
+                ><i class="fa-solid fa-database"></i> Data Science</span
+              >
+              <span class="highlight-chip"
+                ><i class="fa-solid fa-robot"></i> AI Systems</span
+              >
+              <span class="highlight-chip"
+                ><i class="fa-brands fa-python"></i> Python</span
+              >
+              <span class="highlight-chip"
+                ><i class="fa-solid fa-server"></i> MLOps</span
+              >
+            </div>
+
+            <div class="about-info-grid reveal">
+              <div class="info-item">
+                <i class="fa-solid fa-graduation-cap info-icon"></i>
+                <div>
+                  <div class="info-label">Education</div>
+                  <div class="info-value">BS CS — UET Mardan</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-location-dot info-icon"></i>
+                <div>
+                  <div class="info-label">Location</div>
+                  <div class="info-value">Pakistan</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-code info-icon"></i>
+                <div>
+                  <div class="info-label">Specialization</div>
+                  <div class="info-value">Data Science</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <i class="fa-solid fa-calendar info-icon"></i>
+                <div>
+                  <div class="info-label">Since</div>
+                  <div class="info-value">2023 – Present</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     SKILLS
+     ================================================================ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Technical Arsenal</div>
+        <h2 class="section-title reveal">Skills &amp; Technologies</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 56px">
+          A curated stack of tools and frameworks I use to engineer AI-powered
+          solutions.
+        </p>
+
+        <div class="skills-layout">
+          <!-- Proficiency bars -->
+          <div class="skills-bars">
+            <div class="section-tag reveal" style="margin-bottom: 24px">
+              Core Proficiency
+            </div>
+
+            <div class="skill-bar-item reveal">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Python</span>
+                <span class="skill-bar-pct">90%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="90"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal reveal-delay-1">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Machine Learning</span>
+                <span class="skill-bar-pct">85%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="85"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal reveal-delay-2">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Deep Learning</span>
+                <span class="skill-bar-pct">82%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="82"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal reveal-delay-3">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Computer Vision</span>
+                <span class="skill-bar-pct">80%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="80"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal reveal-delay-4">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">SQL / Data Engineering</span>
+                <span class="skill-bar-pct">75%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="75"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Model Deployment</span>
+                <span class="skill-bar-pct">78%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="78"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item reveal">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">NLP / RAG Systems</span>
+                <span class="skill-bar-pct">72%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-pct="72"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill chips by category -->
+          <div class="skills-tags-section">
+            <div class="skills-category reveal">
+              <div class="skills-cat-title">
+                <i class="fa-brands fa-python"></i> &nbsp;Programming
+              </div>
+              <div class="skills-chips">
+                <span class="skill-chip"
+                  ><i class="fa-brands fa-python"></i> Python</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-database"></i> SQL</span
+                >
+              </div>
+            </div>
+
+            <div class="skills-category reveal reveal-delay-1">
+              <div class="skills-cat-title">
+                <i class="fa-solid fa-brain"></i> &nbsp;AI / ML
+              </div>
+              <div class="skills-chips">
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-chart-line"></i> Machine Learning</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-network-wired"></i> Deep Learning</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-comment-dots"></i> NLP</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-eye"></i> Computer Vision</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-magnifying-glass"></i> RAG</span
+                >
+              </div>
+            </div>
+
+            <div class="skills-category reveal reveal-delay-2">
+              <div class="skills-cat-title">
+                <i class="fa-solid fa-layer-group"></i> &nbsp;Libraries &amp;
+                Frameworks
+              </div>
+              <div class="skills-chips">
+                <span class="skill-chip">Pandas</span>
+                <span class="skill-chip">NumPy</span>
+                <span class="skill-chip">Scikit-learn</span>
+                <span class="skill-chip">OpenCV</span>
+                <span class="skill-chip">TensorFlow</span>
+                <span class="skill-chip">PyTorch</span>
+                <span class="skill-chip">Hugging Face</span>
+                <span class="skill-chip">YOLOv8</span>
+              </div>
+            </div>
+
+            <div class="skills-category reveal reveal-delay-3">
+              <div class="skills-cat-title">
+                <i class="fa-solid fa-tools"></i> &nbsp;Tools
+              </div>
+              <div class="skills-chips">
+                <span class="skill-chip"
+                  ><i class="fa-brands fa-git-alt"></i> Git</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-brands fa-github"></i> GitHub</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-book"></i> Jupyter</span
+                >
+              </div>
+            </div>
+
+            <div class="skills-category reveal reveal-delay-4">
+              <div class="skills-cat-title">
+                <i class="fa-solid fa-rocket"></i> &nbsp;Deployment
+              </div>
+              <div class="skills-chips">
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-flask"></i> Flask</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-chart-bar"></i> Streamlit</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-solid fa-plug"></i> REST APIs</span
+                >
+                <span class="skill-chip"
+                  ><i class="fa-brands fa-docker"></i> Docker</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     PROJECTS
+     ================================================================ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Portfolio</div>
+        <h2 class="section-title reveal">Featured Projects</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 40px">
+          Real-world AI systems I've engineered — from vision pipelines to
+          intelligent APIs.
+        </p>
+
+        <!-- Filter buttons -->
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="cv">Computer Vision</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="nlp">NLP / RAG</button>
+          <button class="filter-btn" data-filter="web">Web / API</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 — YOLOv8 -->
+          <div class="project-card reveal" data-cat="cv">
+            <span class="project-cat-badge cat-cv">CV</span>
+            <div class="project-num">01 / 05</div>
+            <div class="project-icon"><i class="fa-solid fa-video"></i></div>
+            <h3 class="project-title">
+              YOLOv8 Real-Time Object Detection with Sound Alert
+            </h3>
+            <p class="project-desc">
+              Built a real-time object detection system using YOLOv8 that
+              identifies objects from a live webcam feed and triggers audio
+              alerts upon detection. Optimized for low-latency inference using
+              OpenCV and custom-trained weights.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">YOLOv8</span>
+              <span class="project-tag">OpenCV</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">PyTorch</span>
+              <span class="project-tag">Real-time</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/add-your-link"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-link">
+                <i class="fa-solid fa-play"></i> Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 — ML Pipeline -->
+          <div class="project-card reveal reveal-delay-1" data-cat="ml">
+            <span class="project-cat-badge cat-ml">ML</span>
+            <div class="project-num">02 / 05</div>
+            <div class="project-icon">
+              <i class="fa-solid fa-diagram-project"></i>
+            </div>
+            <h3 class="project-title">End-to-End Machine Learning Pipeline</h3>
+            <p class="project-desc">
+              Designed and implemented a complete ML pipeline covering data
+              ingestion, preprocessing, feature engineering, model training,
+              evaluation, and deployment. Modular architecture supports
+              plug-and-play model switching.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Scikit-learn</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">NumPy</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Flask</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/add-your-link"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Details
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 — ML Models -->
+          <div class="project-card reveal reveal-delay-2" data-cat="ml">
+            <span class="project-cat-badge cat-ml">ML</span>
+            <div class="project-num">03 / 05</div>
+            <div class="project-icon">
+              <i class="fa-solid fa-chart-scatter"></i>
+            </div>
+            <h3 class="project-title">
+              ML Models — Regression &amp; Classification
+            </h3>
+            <p class="project-desc">
+              A comprehensive collection of supervised learning models including
+              linear &amp; polynomial regression, decision trees, random
+              forests, SVM, and gradient boosting—all with thorough EDA,
+              hyperparameter tuning, and performance comparison reports.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Scikit-learn</span>
+              <span class="project-tag">Matplotlib</span>
+              <span class="project-tag">Seaborn</span>
+              <span class="project-tag">Jupyter</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/add-your-link"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-link">
+                <i class="fa-solid fa-book-open"></i> Notebook
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 — RAG -->
+          <div class="project-card reveal" data-cat="nlp">
+            <span class="project-cat-badge cat-nlp">NLP</span>
+            <div class="project-num">04 / 05</div>
+            <div class="project-icon"><i class="fa-solid fa-comments"></i></div>
+            <h3 class="project-title">
+              RAG-Based AI System using Hugging Face
+            </h3>
+            <p class="project-desc">
+              Built a Retrieval-Augmented Generation pipeline using Hugging Face
+              Transformers and FAISS vector store. The system answers
+              domain-specific queries by retrieving relevant document chunks and
+              generating grounded, context-aware responses.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Hugging Face</span>
+              <span class="project-tag">FAISS</span>
+              <span class="project-tag">LangChain</span>
+              <span class="project-tag">Transformers</span>
+              <span class="project-tag">NLP</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/add-your-link"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-link">
+                <i class="fa-solid fa-play"></i> Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5 — Streamlit / Flask -->
+          <div class="project-card reveal reveal-delay-1" data-cat="web">
+            <span class="project-cat-badge cat-web">Web</span>
+            <div class="project-num">05 / 05</div>
+            <div class="project-icon"><i class="fa-solid fa-globe"></i></div>
+            <h3 class="project-title">
+              Streamlit ML Apps &amp; Flask REST APIs
+            </h3>
+            <p class="project-desc">
+              Deployed multiple ML models as interactive Streamlit web apps and
+              production-ready Flask REST APIs. Features include real-time
+              predictions, data upload, visualization dashboards, and
+              Docker-containerized deployment.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Streamlit</span>
+              <span class="project-tag">Flask</span>
+              <span class="project-tag">REST API</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/add-your-link"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+              <a href="#" class="project-link">
+                <i class="fa-solid fa-rocket"></i> Live App
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     EXPERIENCE
+     ================================================================ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Journey</div>
+        <h2 class="section-title reveal">Project Experience</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 56px">
+          A timeline of my technical growth through hands-on AI projects.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot active"></div>
+            <div class="timeline-date">2026 — Present</div>
+            <h3 class="timeline-title">RAG-Based AI System Development</h3>
+            <div class="timeline-org">Self-Directed Research Project</div>
+            <p class="timeline-desc">
+              Architected a production-grade Retrieval-Augmented Generation
+              system leveraging Hugging Face Transformers, FAISS vector
+              indexing, and modern prompt engineering. Focused on grounded,
+              hallucination-resistant AI responses for domain-specific knowledge
+              bases.
+            </p>
+            <div class="timeline-skills">
+              <span class="timeline-skill">Hugging Face</span>
+              <span class="timeline-skill">FAISS</span>
+              <span class="timeline-skill">RAG</span>
+              <span class="timeline-skill">NLP</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot active"></div>
+            <div class="timeline-date">2025 — 2026</div>
+            <h3 class="timeline-title">Computer Vision System Engineer</h3>
+            <div class="timeline-org">YOLOv8 Detection Project</div>
+            <p class="timeline-desc">
+              Designed and implemented a real-time object detection system with
+              sound-alerting capabilities. Trained YOLOv8 on custom datasets,
+              optimized inference pipelines, and integrated OpenCV for live
+              webcam processing.
+            </p>
+            <div class="timeline-skills">
+              <span class="timeline-skill">YOLOv8</span>
+              <span class="timeline-skill">PyTorch</span>
+              <span class="timeline-skill">OpenCV</span>
+              <span class="timeline-skill">Python</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 — 2025</div>
+            <h3 class="timeline-title">ML Pipeline Architect</h3>
+            <div class="timeline-org">End-to-End ML Project</div>
+            <p class="timeline-desc">
+              Engineered a modular end-to-end machine learning pipeline from raw
+              data ingestion to model deployment. Implemented REST API endpoints
+              with Flask and containerized the entire system with Docker for
+              reproducible deployments.
+            </p>
+            <div class="timeline-skills">
+              <span class="timeline-skill">Scikit-learn</span>
+              <span class="timeline-skill">Flask</span>
+              <span class="timeline-skill">Docker</span>
+              <span class="timeline-skill">REST API</span>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023 — 2024</div>
+            <h3 class="timeline-title">Data Science & ML Foundations</h3>
+            <div class="timeline-org">UET Mardan — Academic Projects</div>
+            <p class="timeline-desc">
+              Developed comprehensive regression and classification models
+              across multiple domains. Built interactive Streamlit dashboards
+              for data exploration and model visualization, establishing a
+              strong foundation in data science fundamentals.
+            </p>
+            <div class="timeline-skills">
+              <span class="timeline-skill">Pandas</span>
+              <span class="timeline-skill">NumPy</span>
+              <span class="timeline-skill">Streamlit</span>
+              <span class="timeline-skill">EDA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     EDUCATION
+     ================================================================ -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Academic</div>
+        <h2 class="section-title reveal">Education</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 56px">
+          Formal training in Computer Science with a Data Science
+          specialization.
+        </p>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3 class="edu-degree">Bachelor of Science in Computer Science</h3>
+            <div class="edu-institution">
+              University of Engineering &amp; Technology (UET) Mardan
+            </div>
+            <div class="edu-meta">
+              <span class="edu-meta-item"
+                ><i class="fa-solid fa-calendar"></i> 2023 – Present</span
+              >
+              <span class="edu-meta-item"
+                ><i class="fa-solid fa-tag"></i> Data Science
+                Specialization</span
+              >
+              <span class="edu-meta-item"
+                ><i class="fa-solid fa-location-dot"></i> Mardan, Pakistan</span
+              >
+            </div>
+            <p class="edu-desc">
+              Pursuing an undergraduate degree with a focus on Data Science,
+              covering core CS fundamentals alongside advanced topics in Machine
+              Learning, Deep Learning, Databases, Data Structures &amp;
+              Algorithms, and Statistical Analysis. Actively applying coursework
+              through independent AI projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     CERTIFICATIONS
+     ================================================================ -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Credentials</div>
+        <h2 class="section-title reveal">Certifications</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 48px">
+          Validated knowledge through structured programs and industry
+          certifications.
+        </p>
+
+        <div class="certs-grid">
+          <div class="cert-card reveal">
+            <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+            <div>
+              <h3 class="cert-title">Python Programming Certificate</h3>
+              <div class="cert-issuer">Professional Development Program</div>
+              <div class="cert-date">
+                <i class="fa-regular fa-calendar"></i> February 2026
+              </div>
+            </div>
+          </div>
+
+          <div class="cert-card reveal reveal-delay-1">
+            <div class="cert-icon"><i class="fa-solid fa-brain"></i></div>
+            <div>
+              <h3 class="cert-title">
+                Artificial Intelligence &amp; Machine Learning
+              </h3>
+              <div class="cert-issuer">KPITB — Khyber Pakhtunkhwa IT Board</div>
+              <div class="cert-date">
+                <i class="fa-regular fa-calendar"></i> April 2026
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     SOFT SKILLS
+     ================================================================ -->
+    <section id="softskills" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Human Skills</div>
+        <h2 class="section-title reveal">Soft Skills</h2>
+        <p class="section-subtitle reveal" style="margin-bottom: 48px">
+          Technical excellence amplified by interpersonal strengths.
+        </p>
+
+        <div class="soft-grid">
+          <div class="soft-card reveal">
+            <div class="soft-icon">🧩</div>
+            <div class="soft-name">Problem Solving</div>
+          </div>
+          <div class="soft-card reveal reveal-delay-1">
+            <div class="soft-icon">🔬</div>
+            <div class="soft-name">Analytical Thinking</div>
+          </div>
+          <div class="soft-card reveal reveal-delay-2">
+            <div class="soft-icon">🤝</div>
+            <div class="soft-name">Teamwork</div>
+          </div>
+          <div class="soft-card reveal reveal-delay-3">
+            <div class="soft-icon">💬</div>
+            <div class="soft-name">Communication</div>
+          </div>
+          <div class="soft-card reveal reveal-delay-4">
+            <div class="soft-icon">🔄</div>
+            <div class="soft-name">Adaptability</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     CONTACT
+     ================================================================ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-tag reveal">Let's Connect</div>
+        <h2 class="section-title reveal">Get in Touch</h2>
+
+        <div class="contact-wrapper">
+          <div class="contact-info reveal">
+            <p>
+              I'm actively looking for opportunities in ML Engineering, Computer
+              Vision, and Data Science. Whether you have a project, job
+              opportunity, or just want to talk AI — my inbox is always open.
+            </p>
+
+            <div class="contact-items">
+              <a href="mailto:muhammadismail0140@email.com" class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-value">muhammadismail0140@email.com</div>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/muhammad-ismail-913ab6322/"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-item-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">LinkedIn</div>
+                  <div class="contact-item-value">
+                    https://www.linkedin.com/in/muhammad-ismail-913ab6322/
+                  </div>
+                </div>
+              </a>
+              <a
+                href="https://github.com/muhammadismail040"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-item-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <div class="contact-item-label">GitHub</div>
+                  <div class="contact-item-value">github.com/muhammadismail040</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="social-links" style="margin-top: 32px">
+              <a
+                href="mailto:m.ismail@email.com"
+                class="social-link"
+                title="Email"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a
+                href="mailto:muhammadismail0140@gmail.com"
+                target="_blank"
+                class="social-link"
+                title="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/muhammadismail040"
+                target="_blank"
+                class="social-link"
+                title="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://twitter.com/add-your-link"
+                target="_blank"
+                class="social-link"
+                title="Twitter"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrap reveal reveal-delay-2">
+            <form class="contact-form" id="contactForm" action="process-form.php" method="POST" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="fname">First Name</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="lname">Last Name</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="lname"
+                    name="lname"
+                    placeholder="Last Name"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">Email Address</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="john@example.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="subject">Subject</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Job opportunity / Collaboration…"
+                />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">Message</label>
+                <textarea
+                  class="form-textarea"
+                  id="message"
+                  name="message"
+                  placeholder="Tell me about your project or opportunity…"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-submit">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+              <div class="form-status" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+     FOOTER
+     ================================================================ -->
+    <footer>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-copy">
+            Designed &amp; built by <span>Muhammad Ismail</span> &mdash; © 2026
+          </div>
+          <div class="footer-links">
+            <a href="#hero">Top</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://github.com/add-your-link" target="_blank"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
