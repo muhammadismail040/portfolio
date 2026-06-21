@@ -191,46 +191,15 @@ document.querySelectorAll('.project-card').forEach(card => {
 // ── CV Download ───────────────────────────────────────────────
 document.getElementById('downloadCV') &&
   document.getElementById('downloadCV').addEventListener('click', () => {
-    // Create a simple text CV for demo
-    const cv = `MUHAMMAD ISMAIL
-ML/DL Engineer | Computer Vision | Data Scientist
-========================================
+    document.getElementById('downloadCV')?.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.href = './assets/IsmailAICV.pdf'; // Path to your PDF
+    link.download = 'IsmailAICV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
 
-CONTACT
-Email: m.ismail@email.com
-LinkedIn: add-your-link
-GitHub: add-your-link
-
-ABOUT
-AI and Machine Learning enthusiast with experience in Deep Learning, 
-Computer Vision, and Data Science. Building real-time intelligent 
-systems including YOLOv8 object detection, ML pipelines, and RAG-based AI systems.
-
-EDUCATION
-BS Computer Science (Data Science Specialization)
-UET Mardan | 2023 – Present
-
-SKILLS
-Programming: Python, SQL
-AI/ML: Machine Learning, Deep Learning, NLP, Computer Vision, RAG
-Libraries: Pandas, NumPy, Scikit-learn, OpenCV, TensorFlow, PyTorch, Hugging Face
-Tools: Git, GitHub, Jupyter Notebook
-Deployment: Flask, Streamlit, REST APIs, Docker
-
-PROJECTS
-1. YOLOv8 Real-Time Object Detection with Sound Alert
-2. End-to-End Machine Learning Pipeline
-3. ML Models (Regression & Classification)
-4. RAG-based AI System using Hugging Face
-5. Streamlit ML Apps & Flask APIs
-
-CERTIFICATIONS
-• Python Programming Certificate (Feb 2026)
-• AI/ML – KPITB (Apr 2026)
-
-SOFT SKILLS
-Problem-solving | Analytical Thinking | Teamwork | Communication | Adaptability
-`;
     const blob = new Blob([cv], { type: 'text/plain' });
     const url  = URL.createObjectURL(blob);
     const a    = Object.assign(document.createElement('a'), { href: url, download: 'Muhammad_Ismail_CV.txt' });
